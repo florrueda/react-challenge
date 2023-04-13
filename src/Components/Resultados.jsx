@@ -28,7 +28,7 @@ const Resultados = (props) => {
 
         setMoviesResults(res.data.results);
     });
-    },[keyword]);
+    },[keyword, navigate]);
     
 
   return (
