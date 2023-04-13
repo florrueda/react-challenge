@@ -7,6 +7,9 @@ https://alkemy-reactchallenge-movies.netlify.app/listado
 
 ## Instalation
 cd react-challenge
+
 git clone https://github.com/florrueda/react-challenge.git
+
 npm install
+
 npm start
