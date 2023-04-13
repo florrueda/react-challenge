@@ -1,7 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
-import swal from '@sweetalert/with-react'
+import Swal from 'sweetalert2'
 
 const Resultados = (props) => {
   const { keyword } = useParams();
@@ -20,11 +20,10 @@ const Resultados = (props) => {
         const moviesArray = res.data.results;
 
         if(moviesArray.length === 0) {
-            swal(
-                <div>
-                  <h1>Tu busqueda no arrojo resultados</h1>
-                </div>
-              )
+          Swal.fire(
+            'Tu busqueda no arrojo resultados','',
+            'error'
+          )
         } 
 
         setMoviesResults(res.data.results);

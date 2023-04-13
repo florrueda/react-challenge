@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import "../Css/bootstrap.min.css";
 import axios from "axios";
-import swal from '@sweetalert/with-react'
+import Swal from 'sweetalert2'
 
 const Listado = (props) => {
   const navigate = useNavigate();
@@ -22,10 +22,9 @@ const Listado = (props) => {
       setMoviesList(apiData);
     })
     .catch(err => {
-      swal(
-        <div>
-          <h1>Hubo un error, intenta nuevamente</h1>
-        </div>
+      Swal.fire(
+        'Hubo un error intenta nuevamente','',
+        'error'
       )
     })
   }, [navigate, setMoviesList]);
