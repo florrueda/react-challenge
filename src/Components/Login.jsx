@@ -62,6 +62,13 @@ const Login = () => {
               Submit
             </button>
           </form>
+          <button type="button"  className="btn btn-success mt-2" 
+									onClick={() => {
+										sessionStorage.setItem('token', 'guest');
+										navigate("/listado");
+									}}>
+										Login as guest
+									</button>
         </div>
       </div>
     </>

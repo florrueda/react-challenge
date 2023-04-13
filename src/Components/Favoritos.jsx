@@ -20,12 +20,12 @@ const Favoritos = (props) => {
         props.favs.map((favs) => {
           return (
             <div className="col-3" key={favs.id}>
-              <div className="card" >
+              <div className="card my-4" >
                 <img src={favs.imgUrl} className="card-img-top" alt="..." />
                 <button className="favourite-btn" onClick={props.addOrRemoveFromFavs} data-movie-id={favs.id}>🖤</button>
                 <div className="card-body">
                   <h5 className="card-title">{favs.title}</h5>
-                  <p className="card-text">{favs.overview}</p>
+                  <p className="card-text">{favs.overview.substring(0,150)}...</p>
                   <Link to={`/movie-detail/${favs.id}`} className="btn btn-primary">
                     View Detail
                   </Link>
