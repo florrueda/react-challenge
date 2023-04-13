@@ -14,7 +14,8 @@ npm install
 
 npm start
 
-##Objetivos 📋
+##Objetivos 📋 
+
 Utilizando la API The Movies DB, deberás:
 
 ● Crear una APP de React con el paquete create-react-app
@@ -22,9 +23,13 @@ Utilizando la API The Movies DB, deberás:
 ● Manejar componentes stateless y stateful (FC) poniendo el foco en:
 
   ○ JSX
+  
   ○ Estados
+  
   ○ Event handlers
+  
   ○ Props / Keys
+  
   ○ Renderizado condicional
   
   
@@ -41,6 +46,7 @@ local
 
 
 ##Requerimientos funcionales 🔧
+
 La aplicación de React tendrá:
 
 ● Login - Usará el mismo endpoint de Alkemy para obtener el token
