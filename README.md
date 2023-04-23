@@ -1,8 +1,11 @@
 # Alkemy React Challenge
 
+Proyecto realizado en el Skill Up de React de Alkemy. El proyecto consiste en una SPA en la que los usuarios pueden ver todas las películas disponibles mediante el consumo de una API externa y mostrar los detalles de la película si el usuario desea saber más. Tambien se pueden guardar las peliculas en la seccion de favoritos y se pueden buscar las peliculas que le interese. 
+
 React Challenge of the Alkemy Skill Up. A Single Page Application in which the users 
 can view all the movies available, consuming an external API, and showing the movie details 
-if the user want to know more.
+if the user want to know more. They can also save the movies in the favorites section and search for the movies that interest the user. 
+
 https://alkemy-reactchallenge-movies.netlify.app/listado
 
 ## Instalation
@@ -43,28 +46,3 @@ local
 ● Implementar la librería de ruteo React Router Dom
 
 ● Implementar una librería de CSS (Bootstrap, Tailwind o similar).
-
-
-##Requerimientos funcionales 🔧
-
-La aplicación de React tendrá:
-
-● Login - Usará el mismo endpoint de Alkemy para obtener el token
-
-● Listado de películas - traerá las películas más recientes en cartelera con toda su
-información
-
-● Detalle de película - mostrará la información particular de cada película
-mostrada en el listado, aquí se podrá ampliar más en detalle cada película
-
-● Buscador - permitirá buscar películas por una palabra clave y mostrará los
-resultados que coincidan
-
-● Favoritos - cada película tendrá la opción de ser agregada a esta sección. Solo
-las películas elegidas por el usuario como "Favorita" podrán estar aquí. Se deberá
-validar que haya por lo menos una película de categoría "FAMILIA". También que
-se puedan quitar / eliminar películas de las sección Favoritos.
-
-● Barra de navegación - Debe existir un indicador de la cantidad de películas en
-favoritos. Y en el detalle, se especificará si esa película ya está en Favoritos y
-deberá haber un acumulado de Rating de las películas en "Favoritos".
