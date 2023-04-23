@@ -38,7 +38,7 @@ const Resultados = (props) => {
       {
         moviesResults.map((movie) => {
           return (
-            <div className="col-3" key={movie.id}>
+            <div className="col-lg-3 col-md-4 col-sm-10" key={movie.id}>
               <div className="card" >
                 <img src={`https://image.tmdb.org/t/p/w500/`+ movie.poster_path} className="card-img-top" alt="..." />
                 <button className="favourite-btn" onClick={props.addOrRemoveFromFavs} data-movie-id={movie.id}>🖤</button>

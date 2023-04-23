@@ -33,7 +33,7 @@ const Listado = (props) => {
       <div className="row">
         {moviesList.map((movie) => {
           return (
-            <div className="col-3" key={movie.id}>
+            <div className="col-lg-3 col-md-4 col-sm-10 " key={movie.id}>
               <div className="card my-4">
                 <img
                   src={`https://image.tmdb.org/t/p/w500/` + movie.poster_path}

@@ -21,7 +21,7 @@ const Buscador = () => {
     }
 
   return (
-    <div className="d-flex align-items-center">
+    <div className="d-flex align-items-center p-2">
       <form onSubmit={submitHandler}>
         <label className="form-label mb-0 mx-2 ">
         <input
@@ -31,7 +31,7 @@ const Buscador = () => {
           placeholder="Escribe una palabra"
         />
         </label>
-        <button className="btn btn-success ml-2" type="submit">
+        <button className="btn btn-success m-2 " type="submit">
           Buscar
         </button>
       </form>

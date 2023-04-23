@@ -7,7 +7,7 @@ const Header = (props) => {
     <div>
       <header>
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-          <div className="container">
+          <div className="container-fluid">
             <Link className="navbar-brand" to="/">
               AlkeFlix
             </Link>
@@ -22,7 +22,7 @@ const Header = (props) => {
             >
               <span className="navbar-toggler-icon"></span>
             </button>
-            <div className="collpase navbar-collapse" id="navbarNav">
+            <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav">
                 <li className="nav-item">
                   <Link to="/" className="nav-link">
